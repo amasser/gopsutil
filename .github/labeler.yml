@@ -1,0 +1,31 @@
+package:disk:
+  - disk/*
+package:cpu:
+  - cpu/*
+package:disk:
+  - disk/*
+package:docker:
+  - docker/*
+package:host:
+  - host/*
+package:load:
+  - load/*
+package:mem:
+  - mem/*
+package:net:
+  - net/*
+package:process:
+  - process/*
+package:winservices:
+  - winservices/*
+os:linux:
+  - **/*_linux*
+os:freebsd:
+  - **/*_freebsd*
+os:darwin:
+  - **/*_darwin*
+os:openbsd:
+  - **/*_openbsd*
+os:windows:
+  - **/*_windows*
+
